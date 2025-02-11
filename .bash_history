@@ -238,3 +238,6 @@ git commit -m "Saving unstaged changes before pull"
 git pull --rebase origin main
 git push origin main
 git pull --rebase origin main
+git stash
+git pull --rebase origin main
+git stash pop
