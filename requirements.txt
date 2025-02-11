@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 echo "flask" > requirements.txt
+=======
+flask
+gunicorn
+>>>>>>> cf509df (Initial commit)
