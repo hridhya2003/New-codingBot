@@ -225,3 +225,7 @@ git config user.email hridhyaaugustine11@gmail.com
 git commit -m "Initial commit"
 git init
 git remote add origin https://github.com/hridhya2003/New-codingBot.git
+git add .
+git commit -m "Saving unstaged changes before pull"
+git pull --rebase origin main
+git push origin main
