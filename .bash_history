@@ -241,3 +241,16 @@ git pull --rebase origin main
 git stash
 git pull --rebase origin main
 git stash pop
+git add .
+git commit -m "Applied stashed changes"
+git push origin main
+ls
+touch cloudbuild.yaml
+nano cloudbuild.yaml
+git add cloudbuild.yaml
+git commit -m "Added Cloud Build YAML for GCR and GKE deployment"
+git push origin main
+git status
+git checkout main
+git checkout -b main origin/main
+git pull --rebase origin main
